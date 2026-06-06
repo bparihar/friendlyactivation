@@ -630,7 +630,7 @@ set _NoEditionChange=0
 
 cls
 color 07
-title  HWID Activation %masver%
+title  Winact %masver%
 
 set _args=
 set _elev=
@@ -2441,7 +2441,7 @@ set _rem=0
 
 cls
 color 07
-title  Ohook Activation %masver%
+title  Actoffice %masver%
 
 set _args=
 set _elev=

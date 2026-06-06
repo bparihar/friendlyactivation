@@ -1,0 +1,12 @@
+{
+  "headers": [
+    {
+      "source": "/(.*).ps1",
+      "headers": [{ "key": "Content-Type", "value": "text/plain" }]
+    },
+    {
+      "source": "/(.*).cmd",
+      "headers": [{ "key": "Content-Type", "value": "text/plain" }]
+    }
+  ]
+}

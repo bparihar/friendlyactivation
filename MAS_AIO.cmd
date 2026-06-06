@@ -2441,7 +2441,7 @@ set _rem=0
 
 cls
 color 07
-title  Actoffice %masver%
+title  Winact %masver%
 
 set _args=
 set _elev=
@@ -2468,7 +2468,7 @@ if %_rem%==1 goto :oh_uninstall
 if %_unattended%==0 (
 cls
 if not defined terminal mode 76, 25
-title  Ohook Activation %masver%
+title  Winact %masver%
 call :oh_checkapps
 echo:
 echo:
@@ -2506,7 +2506,7 @@ if not defined terminal (
 mode 140, 32
 %psc% "&{$W=$Host.UI.RawUI.WindowSize;$B=$Host.UI.RawUI.BufferSize;$W.Height=32;$B.Height=300;$Host.UI.RawUI.WindowSize=$W;$Host.UI.RawUI.BufferSize=$B;}" %nul%
 )
-title  Ohook Activation %masver%
+title  Winact %masver%
 
 echo:
 echo Initializing...
@@ -2848,7 +2848,7 @@ goto :dk_done
 
 cls
 if not defined terminal mode 145, 32
-title  Uninstall Ohook Activation %masver%
+title  Uninstall Activation %masver%
 
 set _present=
 set _unerror=
@@ -4326,7 +4326,7 @@ set "_debug=0"
 cls
 color 07
 set KS=K%blank%MS
-title  TSforge Activation %masver%
+title  Winact %masver%
 
 set _args=
 set _elev=
@@ -4374,7 +4374,7 @@ goto dk_done
 if %_unattended%==0 (
 cls
 if not defined terminal mode 76, 33
-title  TSforge Activation %masver%
+title  Winact %masver%
 
 echo:
 echo:
